@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_002` |ảnh car nhỏ hơn 15x15 px |vẫn gán nhãn |ảnh tuy nhỏ nhưng vẫn nhìn rõ lớp |
+| `drive_049` |ảnh vật thể car bị cắt bởi rìa ảnh |vẫn gán nhãn |vì vẫn còn nhận ra lớp, nhận ra được dó là car |
+| `drive_050` |các vật thể car bị che khuất nhiều nhưng dùng mắt thường vẫn nhận ra |không gán nhãn |diện tích còn nhìn thầy dưới 30% |
